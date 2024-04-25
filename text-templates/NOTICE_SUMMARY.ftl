@@ -27,7 +27,7 @@
 [#-- Add the licenses of the projects. --]
 [#if projects?has_content]
 This project contains or depends on third-party software components pursuant to the following licenses:
-
+XXXXXXXX TEST XXXXXXXX
 ----
     [#assign isFirst = true]
     [#--
