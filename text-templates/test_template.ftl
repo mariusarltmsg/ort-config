@@ -7,4 +7,11 @@
 :sectnums:
 :toc:
 
+== Packages
+[#assign advisorResults = helper.advisorResultsWithVulnerabilities()]
+[#list advisorResults as id, results]
+=== ${PurlUtils.toPurl(id)}
+
+[#list results as result]
+
 *Advisor: ${result.advisor.name}*
